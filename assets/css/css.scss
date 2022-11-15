@@ -1,4 +1,4 @@
-/*! Version 22.11.15b */
+/*! Version 22.11.15c */
 @use "sass:math";
 @import "variables";
 
@@ -27,7 +27,7 @@ body {
 	font-feature-settings: "tnum";
 	overflow-x: hidden;
 	position: relative;
-	background: url('../img/bg.png') repeat;
+	background: url('../img/bg.svg') repeat;
 	background-size: 4px 4px;
 }
 
