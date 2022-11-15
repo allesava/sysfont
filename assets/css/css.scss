@@ -1,4 +1,4 @@
-/*! Version 22.11.15a */
+/*! Version 22.11.15b */
 @use "sass:math";
 @import "variables";
 
@@ -227,16 +227,6 @@ main {
 	border: 1px dotted var(--c-text);
 }
 
-@media (max-width: $breakpoint-tablet) {
-	main {
-		section {
-			.inner {
-				padding: math.div($gap, 4);
-			}
-		}
-	}
-}
-
 @media (max-width: $breakpoint-mobile) {
 	html {
 		font-size: 18px;
@@ -251,7 +241,8 @@ main {
 	}
 
 	main {
-		padding-top: 0;
 		width: calc(100% - #{$gap} / 4);
+		justify-content: flex-start;
+		align-items: flex-start;
 	}
 }
